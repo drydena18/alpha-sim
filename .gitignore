@@ -1,1 +1,113 @@
-vdp_core.so
+# ============================
+# Python
+# ============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pkl
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# ============================
+# OS / Editor junk
+# ============================
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# ============================
+# Build / compiled files
+# ============================
+# C / Shared libraries
+*.so
+*.dll
+*.dylib
+*.o
+*.a
+
+# ============================ 
+# Logs / temp
+# ============================
+*.log
+*.tmp
+*.temp
+*.swp
+
+# ============================
+# Data
+# ============================
+# Raw EEG / datasets
+data/raw/
+data/processed/
+data/cache/
+
+# Large files
+*.fif
+*.edf
+*.bdf
+*.set
+*.vhdr
+*.eeg
+*.vmrk
+
+# Spectral / intermediate outputs
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.npz
+*.npy
+
+# ============================
+# Results / Figures
+# ============================
+outputs/
+results/
+figures/
+plots/
+
+# ============================
+# MNE / EEG temp files
+# ============================
+mne/tmp/
+*.log
+*.h5
+
+# ============================
+# Testing / coverage
+# ============================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ============================
+# Packaging (future-proof)
+# ============================
+dist/
+build/
+*.eeg-info/
+
+# ============================
+# Local configs (optional)
+# ============================
+configs/local.yaml
+
+# ============================
+# Keep example configs
+# ============================
+!configs/*.yaml
